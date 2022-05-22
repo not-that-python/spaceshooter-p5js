@@ -8,7 +8,6 @@ let bullets;
 function setup() {
 	imageMode(CENTER)
 	createCanvas(windowWidth, windowHeight);
-	background(100);
 	shipImage = loadImage("playerShip3_blue.png")
 	bulletImage = loadImage("laserRed02.png")
 	bullets = [];
@@ -19,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-	background(100);
+	background(20);
 	updateShip();
 	drawShip();
 	updateBullets();
